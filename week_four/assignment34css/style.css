@@ -1,0 +1,82 @@
+
+.parent
+{
+    width: 550;
+    margin: 20px auto;
+    position: relative;
+}
+.parent::before
+{
+    content: "or";
+    position: absolute;
+    background-color: #03a9f4;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    left: 227px;
+    top: 150px;
+}
+.parent::after
+{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 300px;    
+    background-color: #03a9f4;
+    top: 20px;
+    left: 240px;
+}
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    
+}
+.basic , .pro
+{
+    box-sizing: border-box;
+    width: 200px;
+    height: 300px;
+    background-color: #eee;
+    float: left;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.basic p , .pro p
+{
+    background-color: #03a9f4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 150px;
+    margin: 15px auto;
+}
+.f , .p
+{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background-color: #ddd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 50px;
+    line-height: 150px;
+    font-size: 50px;
+}

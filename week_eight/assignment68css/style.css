@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+div:nth-child(1)>div:nth-last-child(2){
+    color: red;
+}

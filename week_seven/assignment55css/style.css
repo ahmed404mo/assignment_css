@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    --back-color: rgb(255, 87, 34);
+    --color: rgb(255, 255, 255);
+}
+
+h1 {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 100px;
+    margin: 50px auto;
+    background-color: var(--back-color);
+    color: var(--color);
+    justify-content: center;
+    align-items: center;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--back-color);
+    transform: skew(10deg, 10deg);
+    z-index: -1;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--back-color);
+    transform: skew(-10deg, -10deg);
+    z-index: -2;
+}

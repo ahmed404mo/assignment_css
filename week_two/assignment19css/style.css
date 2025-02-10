@@ -1,0 +1,38 @@
+
+body{
+    text-align: center;
+}
+.p{ 
+    text-align: center;
+    border: 2px solid red;
+    text-decoration: none;
+    padding: 0px 15px;
+    margin: 100px ;
+    display: inline-block;
+    
+    
+}
+.j{ 
+    text-align: center;
+    border: 2px solid rgb(68, 0, 255);
+    text-decoration: none;
+    padding: 0px 15px;
+    margin: 100px ;
+    display: inline-block;
+    
+    
+}
+.l{
+    font-size: large;
+ 
+    background-color: rgb(176, 184, 192);
+    border: 2px solid red;
+
+}
+.m{
+    font-size: large;
+ 
+    background-color: rgb(176, 184, 192);
+    border: 2px solid rgb(68, 0, 255);
+
+}

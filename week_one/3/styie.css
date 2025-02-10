@@ -1,0 +1,22 @@
+.back{
+    background-image: url("./img/joanna-kosinska-P9oOLKNhIYU-unsplash.jpg");
+    /* background-position: left ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ah{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 100px;
+    background-color: aliceblue;
+    padding: 10px 10px 10px 10px; 
+
+    margin: 10px;
+    margin: auto;
+     border-width: 10px;
+     border-color: aqua;
+     border-left: rgb(235, 252, 1);
+     border-style: dashed dotted solid solid ;
+     outline: solid green;
+     display: flex;
+}

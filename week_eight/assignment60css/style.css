@@ -1,0 +1,53 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 50%;
+    border-radius: 50%;
+    border: 5px solid #2196f3;
+    border-bottom-color: transparent;
+    animation: loading 1s infinite linear paused;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #ff9800;
+    border-bottom-color: transparent;
+    z-index: -1;
+    animation: loading 1.5s infinite linear paused;
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid #000000;
+    border-bottom-color: transparent;
+    z-index: -2;
+    animation: loading 2s infinite linear paused;
+}
+
+div:hover,
+div:hover::before,
+div:hover::after {
+    animation-play-state: running;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(360deg);
+    }
+}

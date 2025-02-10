@@ -1,0 +1,44 @@
+.ahmed{
+    width: 800px ;
+    background-color: #eee;
+    margin: 15px auto;
+}
+.ahmed div
+{
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 0px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+.clear
+{
+    clear:both;
+}
+.main
+{
+    width: calc(100%-30px);
+
+}
+.one
+{
+    width: calc((100%-60px)/3);
+}
+.two
+{
+    width: calc((100%-45px)/2);
+
+}
+.three{
+    width: calc((100% - 75px) / 4);
+  
+}
+/*
+    4*15 =60px
+    (100%-60)/3
+
+
+ */

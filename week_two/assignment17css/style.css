@@ -1,0 +1,39 @@
+/* div{
+    padding: 10px;
+    margin: 2px;
+    width: 400px ;
+    background-color: rgb(183, 203, 221);
+    white-space:normal;
+} */
+/* div{
+    padding: 10px;
+    margin: 2px;
+    width: 400px ;
+    background-color: rgb(183, 203, 221);
+    white-space:nowrap;
+} */
+/* div{
+    padding: 10px;
+    margin: 2px;
+    width : 400px;
+    background-color: rgb(183, 203, 221);
+    word-break: break-all;
+} */
+/* div{
+    padding: 10px;
+    margin: 2px;
+    width : 400px;
+    background-color: rgb(183, 203, 221);
+    white-space: nowrap;
+    overflow: hidden;
+} */
+div{
+    padding: 10px;
+    margin: 2px;
+    width : 400px;
+    background-color: rgb(183, 203, 221);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}

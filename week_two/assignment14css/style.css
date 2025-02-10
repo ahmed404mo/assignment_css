@@ -1,0 +1,23 @@
+p{
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    background-color: brown;
+    color: aliceblue;
+    display:block;
+    
+
+}
+.a{
+    max-width: 80px;
+}
+.b{
+    max-width: 140px;
+}
+.c{
+    max-width: 180px;
+}
+.d{
+    max-width: 80px;
+    max-height: 50px;
+    overflow: hidden;
+}

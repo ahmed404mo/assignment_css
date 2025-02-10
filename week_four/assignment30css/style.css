@@ -1,0 +1,38 @@
+p{
+        width: 400px ;
+        width: 400px;
+        background-color: #eee;
+        padding: 20px;
+        margin: 20px auto;
+        position: relative;
+        border-left: 10px solid #e91e63 ;
+
+}
+
+p::before{
+    content: attr(name);
+    content: /*attr(data-text)*/"";
+    /* display: none; */
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -29px;
+    top: 50%;
+    background-color: #ffffff;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #e91e63  transparent transparent;
+
+}
+p::after
+{
+    content: attr(data-person);
+    background-color: #ddd;
+    padding: 10px;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    left: -100px;
+    margin-top: -10px;
+}

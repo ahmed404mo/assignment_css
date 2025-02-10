@@ -1,0 +1,21 @@
+.one,
+.two,
+.three
+{
+    background-color: #eee;
+    padding: 10px ;
+    margin: 20px;
+    list-style: none;
+    
+}
+
+    
+
+.tr,.tm,.tk,.tj,.th,.tl,.to,.tu,.tm
+{
+    border: 2px solid #eee;
+    background-color:white;
+}
+.tk,.to,.tj{
+    list-style: upper-roman;
+}

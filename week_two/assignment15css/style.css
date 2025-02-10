@@ -1,0 +1,11 @@
+div{
+    font-size:large ;
+    text-align: center;
+
+        /* box-shadow: 
+            5px 5px 10px rgb(4, 0, 255);  الظل الأول 
+            -5px -5px 10px rgb(255, 0, 0); الظل الثاني 
+     */   text-shadow:  
+            5px 5px 10px rgb(4, 0, 255), /* الظل الأول */
+            -5px -5px 10px rgb(255, 0, 0);/* الظل الثاني */
+}

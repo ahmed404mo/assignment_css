@@ -1,0 +1,12 @@
+
+.g{
+    text-align: center;
+}
+a{
+    border-bottom:2px solid rgb(38, 146, 146) ;
+    color: aliceblue;
+    background-color: rgb(78, 212, 212);
+  
+    text-decoration: none;
+    text-transform: capitalize;
+}

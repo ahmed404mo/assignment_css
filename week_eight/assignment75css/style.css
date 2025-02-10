@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+div {
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: 100px;
+    margin: 50px;
+    background-color: #eee;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.arrow.top::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -80px;
+    left: calc(50% - 40px);
+    background-color: transparent;
+    border: 40px solid;
+    border-color: transparent transparent #eee transparent;
+}
+
+.arrow.right::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: calc(50% - 40px);
+    right: -80px;
+    background-color: transparent;
+    border: 40px solid;
+    border-color: transparent transparent transparent #eee;
+}
+
+.arrow.bottom::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -80px;
+    left: calc(50% - 40px);
+    background-color: transparent;
+    border: 40px solid;
+    border-color: #eee transparent transparent transparent;
+}
+
+.arrow.left::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: calc(50% - 40px);
+    left: -80px;
+    background-color: transparent;
+    border: 40px solid;
+    border-color: transparent #eee transparent transparent;
+}
